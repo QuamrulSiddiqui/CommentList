@@ -1,0 +1,35 @@
+{
+  "name": "storyline",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "\"# test\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_da83dbab550b035"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuamrulSiddiqui/CommentList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuamrulSiddiqui/CommentList/issues"
+  },
+  "homepage": "https://github.com/QuamrulSiddiqui/CommentList#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-docs": "^10.0.6",
+    "@storybook/react-vite": "^10.0.6",
+    "@types/styled-components": "^5.1.35",
+    "prop-types": "^15.8.1",
+    "storybook": "^10.0.6"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.19"
+  }
+}
